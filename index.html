@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>俨道</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<!--[if lt IE 9]>
+		<script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+	<![endif]--> 
+	<link rel="stylesheet" href="style/common.css">
+	<link rel="stylesheet" href="style/animation.css">
+</head>
+<body>
+	<header class="pf">
+		<div class="wrap-widht pr">
+			<a href="" class="disb pa logo"><img src="images/icon/yandao-home_03.png" alt=""><img src="images/icon/yandao-home_05.png" alt="" class="last-logo"></a>
+			<nav class="pa">
+				<ul>
+					<li>
+						<a class="nav-link" href="#">首页</a>
+						<dl>
+							<dd><a href="">俨道简介</a></dd>
+							<dd><a href="">精英团队</a></dd>
+							<dd><a href="">案例精选</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a class="nav-link" href="#">关于俨道</a>
+						<dl>
+							<dd><a href="">俨道简介</a></dd>
+							<dd><a href="">精英团队</a></dd>
+							<dd><a href="">案例精选</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a class="nav-link" href="#">俨道服务</a>
+						<dl>
+							<dd><a href="">俨道简介</a></dd>
+							<dd><a href="">精英团队</a></dd>
+							<dd><a href="">案例精选</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a class="nav-link" href="#">新闻中心</a>
+						<dl>
+							<dd><a href="">俨道简介</a></dd>
+							<dd><a href="">精英团队</a></dd>
+							<dd><a href="">案例精选</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a class="nav-link" href="#">加入俨道</a>
+						<dl>
+							<dd><a href="">俨道简介</a></dd>
+							<dd><a href="">精英团队</a></dd>
+							<dd><a href="">案例精选</a></dd>
+						</dl>
+					</li>
+					<li>
+						<a class="nav-link" href="#">联系我们</a>
+						<dl>
+							<dd><a href="">俨道简介</a></dd>
+							<dd><a href="">精英团队</a></dd>
+							<dd><a href="">案例精选</a></dd>
+						</dl>
+					</li>
+					<li class="search">
+						<div>
+							<form><input type="text" name="" id="search-text"><input type="submit" id="submit" value=""></form>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="banner pr">
+		<span class="cent-line disib vm"></span>
+		<div class="banner-title disib vm">
+			<h1>俨道</h1>
+			<h3>写一行国内最具创新的专业律师事务所之类的话就行了</h3>
+		</div>
+	</div>
+	<div id="debug"></div>
+	<div class="he">afdsaf</div>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript">
+	// 鼠标滑轮滚动后执行的函数
+	// delta > 0 = 向上滚动
+	// delta < 0 = 向下滚动
+	function mousewheelEvent(e, delta) {
+	    console.log(delta);
+	    // 其它代码...
+	}
+	             
+	if (document.attachEvent) {
+	    document.attachEvent("onmousewheel", function(e) {
+	        mousewheelEvent(e, e.wheelDelta);
+	    });
+	}
+	else if (document.addEventListener) {
+	    document.addEventListener("DOMMouseScroll", function(e) {
+	        mousewheelEvent(e, e.detail * -40);
+	    }, false);
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body{line-height:1.5;color:#333;font-family:'Microsoft YaHei','arial';font-size: 12px;}
+html, body{height: 100%;}
+input,textarea,select{font-size:100%;font-family:inherit;}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,dt,form{margin:0;}
+h4,h5,h6{font-size:1em;}
+ul,ol,dl,dd,dt{padding-left:0;list-style-type:none;}
+a img{border:0;}
+img{border:0;}
+*:focus {outline:none}
+.fl{float: left;}
+.fr{float: right;}
+.pa{position: absolute;}
+.pr{position: relative;}
+.pf{position: fixed;}
+.disb{display: block;}
+.disib{display: inline-block;}
+.disn{display: none;}
+.ovh{overflow: hidden;}
+.zoom{zoom: 1;}
+.cl{clear: both;}
+.vm{vertical-align: middle;}
+.fwn{font-weight: normal;}
+
+.wrap-widht{max-width: 1200px;margin-left: auto;margin-right: auto;}
+.op06f,header,nav ul li dl{background: rgba(255,255,255,0.6);background:#fff\9;filter:alpha(opacity=60);}
+
+header{height: 80px; width: 100%;z-index: 99;}
+.logo{top: 7px;left: 0;}
+.last-logo{margin-left: 17px;}
+nav{left: 382px;top: 44px;}
+nav ul li{float: left;padding: 0 18px;position: relative;}
+nav ul li dl{position: absolute;border-top: solid 4px #dc3c13;text-align: center;left: 11px;top: 31px;padding: 8px 0;width: 106px;}
+nav ul li dd{padding: 7px 0;}
+nav ul li dd a{font-size: 14px;color: #3e3e3e;text-decoration: none;}
+
+nav ul li.search{padding-left: 15px;padding-right: 0;}
+nav ul li.search div{width: 185px;border: solid 1px #aeaeb3;background: #fff;height: 27px;}
+nav ul li.search input{border: none; background: none;vertical-align: middle;}
+nav ul li.search input#search-text{height: 27px;line-height: 27px\9;width: 143px;margin-left: 5px;}
+nav ul li.search input#submit{background: url(../images/icon/yandao-home_08.png) no-repeat 4px 2px;width: 31px;height: 27px;margin: 0;}
+nav ul li a.nav-link{font-size: 18px;font-weight: bold;color: #3e3e3e;text-decoration: none;}
+
+.banner-w{height: 100%;}
+.banner{width: 100%;height: 100%;background-image: url(../images/banner/home-banner.jpg);background-size: cover; background-repeat: no-repeat;background-position: center; 0;text-align: center;}
+
+.banner-title{color: #fff;text-align: center;}
+.cent-line{width: 1px;height: 100%;text-align: center;margin-left: -1px;}
+.banner-title h1{font-size: 60px;font-weight: normal;}
+.banner-title h3{font-size: 24px;font-weight: normal;}
+
+.he{height: 2000px;}
