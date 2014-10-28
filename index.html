@@ -13,8 +13,8 @@
 	<link rel="stylesheet" href="style/animation.css">
 </head>
 <body>
-	<header class="pf">
-		<div class="wrap-widht pr">
+	<header class="pf"></header>
+	<div class="pf navs">
 			<a href="" class="disb pa logo"><img src="images/icon/yandao-home_03.png" alt=""><img src="images/icon/yandao-home_05.png" alt="" class="last-logo"></a>
 			<nav class="pa">
 				<ul>
@@ -74,7 +74,6 @@
 				</ul>
 			</nav>
 		</div>
-	</header>
 	<div class="banner pr">
 		<span class="cent-line disib vm"></span>
 		<div class="banner-title disib vm">
@@ -82,56 +81,29 @@
 			<h3>写一行国内最具创新的专业律师事务所之类的话就行了</h3>
 		</div>
 	</div>
-	<div id="debug"></div>
-	<div class="he">afdsaf</div>
+	<div class="features wrap-widht">
+		<div class="understanding">
+			<h2 class="tc fwn">了解我们，从精英团队开始</h2>
+			<p class="tc">这里来一到两行字稍微描述一下团队什么的，大概有六十多个字就行了吧
+	没错，我在凑字数，字数不够啊，反正就这么多点，随便啦</p>
+			<p class="red tr">深入了解</p>
+			<div class="team-img cent"></div>
+		</div>
+	</div>
+	<div class="questionnaire clearfix">
+			<div class="fl ques-l">
+				<div class="ques-bg ques-con tc">
+					<span class="cent-line disib vm"></span>
+					<div class="disib vm">
+						<h2 class="white fwn">私人定制服务</h2>
+						<h4 class="white fwn">问卷调查 | 2014</h4>
+					</div>
+				</div>
+			</div>
+			<div class="fl ques-r ques-con"></div>
+		</div>
+	<div class="he"></div>
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
-	<script>
-		var iNum = 0;
-		document.body.onmousewheel = scrollfunc;
-        document.body.addEventListener("DOMMouseScroll", scrollfunc,false);
-        // function(event){
-        //         event = event || window.event;
-        //         iNum = event.wheelDelta;
-        //         console.log(iNum);
-        // }
-        // function(event){
-        // 		 iNum = event.detail*-40;
-        // 		 // return iNum;
-        //         console.log(iNum);
-        // }
-        var intval;
-        function scrollfunc(event){
-        	var iStrar = 0;
-        	var iScrolltop = $(window).scrollTop();
-        	var iTime = 700;
-        	var iSect = iScrolltop/(iTime/20);
-
-
-        	event = event || window.event;
-        	if(event.wheelDelta){
-        		iNum = event.wheelDelta;
-        	}else{
-        		iNum = event.detail*-40;
-        	}
-        	if(iNum==-120){
-        		intval = setInterval(function(){
-        			iStrar+=iSect;
-        			intvanfn(iStrar);
-        		},20);
-        	}else if(iNum==120){
-        		console.log('shang');
-        	}
-        }
-        function intvanfn(iStrar){
-        	if($(window).scrollTop()<$(window).height()){
-        		$(window).scrollTop(iStrar);
-        	}else{
-        		clearInterval(intval);
-        	}
-        }
-        	// console.log(iNum);
-        
-	</script>
 </body>
 </html>
