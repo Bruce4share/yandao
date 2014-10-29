@@ -43,7 +43,7 @@ header{height: 80px; width: 100%;z-index: 99;top: 0;}
 .last-logo{margin-left: 17px;}
 nav{left: 382px;top: 44px;width: 100%;}
 nav ul li{float: left;position: relative;width: 9%;text-align: center;}
-nav ul li dl{position: absolute;border-top: solid 4px #dc3c13;text-align: center;left: 11px;top: 31px;padding: 8px 0;width: 106px;}
+nav ul li dl{position: absolute;border-top: solid 4px #dc3c13;text-align: center;left: 11px;top: 31px;padding: 8px 0;width: 106px;display: none;}
 nav ul li dd{padding: 7px 0;}
 nav ul li dd a{font-size: 14px;color: #3e3e3e;text-decoration: none;}
 
@@ -52,7 +52,8 @@ nav ul li.search div{width: 185px;border: solid 1px #aeaeb3;background: #fff;hei
 nav ul li.search input{border: none; background: none;vertical-align: middle;}
 nav ul li.search input#search-text{height: 27px;line-height: 27px\9;width: 143px;margin-left: 5px;}
 nav ul li.search input#submit{background: url(../images/icon/yandao-home_08.png) no-repeat 4px 3px;width: 31px;height: 27px;margin: 0;}
-nav ul li a.nav-link{font-size: 18px;font-weight: bold;color: #3e3e3e;text-decoration: none;}
+nav ul li a.nav-link{font-size: 18px;font-weight: bold;color: #3e3e3e;text-decoration: none;display: block;}
+nav ul li a.nav-link:hover{color: #999;}
 
 .banner-w{height: 100%;}
 .banner{width: 100%;height: 100%;background-image: url(../images/banner/home-banner.jpg);background-size: cover; background-repeat: no-repeat;background-position: center; 0;text-align: center;}
