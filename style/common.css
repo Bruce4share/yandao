@@ -1,7 +1,7 @@
-body{line-height:1.5;color:#3e3e3e;font-family:'Microsoft YaHei','arial';font-size: 12px;}
+body{line-height:1.5;color:#3e3e3e;font-family:'Microsoft YaHei','arial';font-size: 14px;}
 html, body{height: 100%;}
 input,textarea,select{font-size:100%;font-family:inherit;}
-body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,dt,form{margin:0;}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,dt,form{margin:0;font-weight: normal;}
 h4,h5,h6{font-size:1em;}
 ul,ol,dl,dd,dt{padding-left:0;list-style-type:none;}
 a img{border:0;}
@@ -20,6 +20,8 @@ img{border:0;}
 .cl{clear: both;}
 .vm{vertical-align: middle;}
 .fwn{font-weight: normal;}
+.fb{font-weight: bold;}
+.tdn{text-decoration: none;}
 
 .tc{text-align: center;}
 .tl{text-align: left;}
@@ -29,10 +31,18 @@ img{border:0;}
 
 .red{color: #e71f19;}
 .white{color: #fff;}
+.c3e3e3e{color: #3e3e3e;}
 
+.f18{font-size: 18px;}
 
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.mt25{margin-top: 25px;}
 .clearfix{zoom:1;}
 .clearfix:after{content: '';visibility: visible;display: block;clear: both;}
+.bgfff{background: #fff;}
+.zi2{z-index: 2;}
+.zi3{z-index: 3;}
 
 .wrap-widht{max-width: 1200px;margin-left: auto;margin-right: auto;}
 .op06f,header,nav ul li dl{background: rgba(255,255,255,0.6);background:#fff\9;filter:alpha(opacity=60);}
@@ -63,7 +73,8 @@ nav ul li a.nav-link:hover{color: #999;}
 .banner-title h1{font-size: 60px;font-weight: normal;}
 .banner-title h3{font-size: 24px;font-weight: normal;}
 
-.understanding{margin-top: 85px;}
+
+.understanding{padding-top: 85px;}
 .understanding h2{font-size: 30px;}
 .understanding p{font-size: 19px;margin-top: 23px;padding: 0 20%;}
 .team-img{background-image: url(../images/banner/yandao-home_03.jpg);max-width: 791px;height: 364px;-webkit-background-size: cover;background-size: cover;width: 100%;background-position:center;margin-top: 62px;}
@@ -71,11 +82,72 @@ nav ul li a.nav-link:hover{color: #999;}
 .ques-l{width: 58%;}
 .ques-r{width: 42%; background: #f2f2f2;}
 .ques-con{height: 461px;}
-.ques-bg{background-image: url(../images/banner/yandao-home_05.jpg);background-repeat: no-repeat;-webkit-background-size: 100% 100%;
-background-size: 100% 100%;}
+.ques-bg{background-image: url(../images/banner/yandao-home_05.jpg);background-repeat: no-repeat;-webkit-background-size: 100% 100%;background-size: 100% 100%;background-color: #fff;}
 .ques-bg h2{font-size: 48px;}
 .ques-bg h4{font-size: 30px;}
 
+.ques-r h2{font-size: 36px;margin-top: 75px;}
+.ques-r p{font-size: 18px;padding: 0 10%;margin-top: 70px;}
+
+.button{width: 160px;border: solid 2px #e71f19; height: 45px;line-height: 45px;color: #e71f19;font-size: 24px;border-radius: 3px;}
+.btn1{margin-top: 48px;background: #e9e9e9;}
+.btn2{margin-top: 40px; background: #fff;}
 
 
-.he{height: 2000px;}
+.follow-us{padding: 77px 0px 88px 0px;}
+.follow-us h1{font-size: 36px;margin-left: 3%;}
+.follow-us h1 span{font-size: 18px;margin-left: 17px;}
+
+.follow-us ul{margin-top: 25px;}
+.follow-us li p,.follow-us li a{font-size: 14px;}
+.w19b{width: 19%;}
+.w27b{width: 27%;}
+.max112{max-width: 112px;}
+.max240{max-width: 240px;}
+
+/*news*/
+.news{background: #f2f2f2;padding: 65px 0;border-bottom: solid 5px #e71f19;box-shadow: 5px 0 12px #333;}
+.news h1{font-size: 36px;}
+.news h5{font-size: 14px;max-width: 485px;margin-top: 25px;}
+.w32b{width: 32%;}
+.news-list{margin-top: 40px;}
+.news-list ul{margin-left: -1%;}
+.news-list ul li{max-width: 390px;_display:inline-block;margin-left: 1%;}
+.l-news,.r-news{background: #fff; border-radius: 4px;box-shadow: 3px 2px 4px #dfdfdf;}
+.r-news{padding: 21px 16px;}
+.r-news p{font-size: 14px;margin-top: 10px;}
+
+.bg-box{height: 313px;position: relative;}
+.news-img{background-repeat: no-repeat;-webkit-background-size: cover;background-size: cover;background-position: center top;position: absolute;width: 100%;height: 100%;}
+.news-img-1{background-image: url(../images/banner/yandao-home_07.png);}
+.news-img-2{background-image: url(../images/banner/yandao-home_09.png);}
+.news-text{padding:25px 40px 25px 20px;}
+.news-text h4,.r-news h4{font-size: 18px;}
+.news-text p{margin-top: 25px;font-size: 14px;}
+
+/*footer*/
+.lucency{height: 350px;}
+footer{padding: 50px 0;bottom: 0px;background: #fff;width: 100%;z-index: 1;}
+.l-footer{width: 793px;}
+.l-footer dl{float: left; width: 100px;_display: inline;margin-left: 42px;}
+.l-footer dl a{text-decoration: none;color: #3e3e3e;font-size: 14px;}
+.l-footer dl dt a{font-weight: bold;font-size: 18px;font-size: 18px;}
+.l-footer dl dd{margin-top: 6px;}
+.r-footer{width: 340px;padding-left: 20px;}
+.copyright{margin-top: 100px;padding-left: 42px;}
+.copyright p{font-size: 14px;margin-top: 4px;}
+
+
+@media screen and (max-width: 1200px) {
+	.logo{left: 20px;}
+	.last-logo{display: none;}
+	.navs{left: 0;margin-left: 0;}
+	nav{left: 211px;}
+}
+@media screen and (max-width: 940px) {
+	.logo{left: 20px;}
+	.last-logo{display: none;}
+	.navs{left: 0;margin-left: 0;}
+	nav{left: 100px;}
+	nav ul li a.nav-link{font-weight: normal;}
+}

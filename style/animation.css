@@ -1,2 +1,7 @@
 .banner-title{opacity: 0;}
 .anima-fade{-webkit-transition: all 2s ease-in-out;-o-transition: all 2s ease-in-out;transition: all 2s ease-in-out;opacity: 1;}
+
+.trans{-webkit-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out;}
+
+.btn:hover{background: #e71f19;color: #fff;}
+.news-img:hover{-webkit-transform: scale(1.2);-ms-transform: scale(1.2);-o-transform: scale(1.2);transform: scale(1.2);}
